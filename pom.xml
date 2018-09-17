@@ -86,10 +86,16 @@
    see: https://issues.apache.org/jira/browse/THRIFT-1536  -->
   <pluginRepositories>
     <pluginRepository>
+      <id>uk</id>
+      <url>http://uk.maven.org/maven2/</url>
+    </pluginRepository>
+
+    <pluginRepository>
       <id>Twitter public Maven repo</id>
       <url>http://maven.twttr.com</url>
     </pluginRepository>
   </pluginRepositories>
+
 
   <properties>
     <targetJavaVersion>1.6</targetJavaVersion>
